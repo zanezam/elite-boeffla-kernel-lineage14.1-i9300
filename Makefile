@@ -369,7 +369,7 @@ KBUILD_CPPFLAGS := -D__KERNEL__
 KBUILD_CFLAGS   := -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs \
 		   -fno-strict-aliasing -fno-common \
 		   -Werror-implicit-function-declaration \
-		   -mlong-calls -Wno-format-security -Wno-array-bounds \
+		   -Wno-format-security -Wno-array-bounds \
 		   -fno-delete-null-pointer-checks -fno-schedule-insns2 -ffast-math \
 		   -mtune=cortex-a9 -march=armv7-a -mcpu=cortex-a9 -mfpu=neon -marm \
 		   -fno-schedule-insns2 -mno-unaligned-access \
